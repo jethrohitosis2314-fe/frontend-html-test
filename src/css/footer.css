@@ -1,0 +1,54 @@
+.footer {
+    position: relative;
+    width: 100%;
+    background: #707070;
+}
+
+.footer-container {
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.footer-container > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-container a, .footer-container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+.footer-info {
+    width: 50%;
+}
+
+.footer-links {
+    text-align: right;
+    margin-left: -1%;
+    width: 50%;
+}
+
+.footer-links > * {
+    display: inline-block !important;
+}
+
+.footer-links a {
+    background-color: #c2c2c2;
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer-links .icon {
+    color: #707070;
+    line-height: 1.8;
+    display: inline-block;
+}
